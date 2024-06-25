@@ -1,17 +1,20 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Tab 2
-    </ion-title>
+    <ion-title> Ontario </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
+      <ion-title size="large">Ontario</ion-title>
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <app-ontario></app-ontario>
+  <ion-item>
+    <ion-label>msg: </ion-label>
+    <ion-text>{{ receivedData }}</ion-text>
+  </ion-item>
+  <app-dose-summary></app-dose-summary>
 </ion-content>

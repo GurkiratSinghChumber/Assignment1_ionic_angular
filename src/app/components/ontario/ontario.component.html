@@ -1,0 +1,20 @@
+<ion-card color="warning">
+  <ion-card-header>
+    <ion-card-title>Ontario Status of Cases</ion-card-title>
+    <ion-card-subtitle>Data</ion-card-subtitle>
+  </ion-card-header>
+
+  <ion-card-content>
+    <p><strong>Total Cases:</strong> {{ ontarioSummary.totalCases }}</p>
+    <p><strong>Resolved:</strong> {{ ontarioSummary.resolved }}</p>
+    <p><strong>Deaths:</strong> {{ ontarioSummary.deaths }}</p>
+    <p>
+      <strong>Confirmed Positive:</strong>
+      {{ ontarioSummary.confirmedPositive }}
+    </p>
+    <p>
+      <strong>Patients in ICU/Ventilator:</strong>
+      {{ ontarioSummary.patientsInICUVentilator }}
+    </p>
+  </ion-card-content>
+</ion-card>
